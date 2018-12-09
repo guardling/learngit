@@ -1,0 +1,20 @@
+一、
+	1.在网上下个git,或者让别人传给你一个也行。然后注册一个git账号
+	2.安装git。新手只需一路点next。
+	3.打开git.bash.
+		输入 git config --global user.email "you@example.com"(加入email)
+		  git config --global user.name "Your Name"
+
+
+	4.在上面写入：mkdir +你想建立的仓库名.
+		在输入：cd +你的仓库名（进入）.
+		在输入：pwd 
+		在输入：git init (清库）.
+		输入：ls -ah(显示位置）
+二、在仓库里添加文件
+	1.cd +仓库名（进入）
+	2.pwd
+	3. vi +文件名.txt
+	4. git add +文件名.txt
+	5. 在你的文件里随便挥洒你的文采。
+	6. git commit -m "....." (在这里注明修改的东西)
